@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="../public/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1>Slider</h1>
+    <div class="slider">
+      <div class="control">
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+      </div>
+      <div class="slider_container">
+        <div class="slide active">
+          <img src="./images/img01.webp" alt="">
+        </div>
+        <div class="slide grid-container">
+          <div class="a"></div>
+          <div class="b">
+            <div class="img"></div>
+            <div class="img"></div>
+            <div class="img"></div>
+            <div class="img"></div>
+            <div class="border"></div>
+          </div>
+          <div class="c"></div>
+          <div class="border"></div>
+        </div>
+        <div class="slide">
+          <img src="./images/img02.webp" alt="">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
